@@ -1,0 +1,20 @@
+.d-flex { display: flex; }
+.fD-C { flex-direction: column; }
+.jC-C { justify-content: center; }
+.jC-E { justify-content: end; }
+.jC-SB { justify-content: space-between; }
+
+.al-C { align-items: center; }
+.al-E { align-items: end; }
+.al-FS { align-items: flex-start; }
+
+.fG-1 { flex-grow: 1; }
+.fs-1 { flex-shrink: 1; }
+
+.g-10 { gap: 10px; }
+.g-15 { gap: 15px; }
+.g-20 { gap: 20px; }
+.g-25 { gap: 25px; }
+.g-30 { gap: 30px; }
+
+

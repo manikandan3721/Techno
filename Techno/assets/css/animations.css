@@ -1,0 +1,61 @@
+:root {
+    
+    --trans     : all ease-in-out;
+    --inf-loop  : linear infinite;
+
+    --one-sec   : .1s;
+    --two-sec   : .2s;
+    --three-sec : .3s;
+    --four-sec  : .4s;
+    --five-sec  : .5s;
+    --six-sec   : .6s;
+    --eight-sec : .8s;
+
+    --one-sec-lg    : 1s;
+    --three-sec-lg  : 3s;
+
+    --default-trans : var(--trans) var(--three-sec);
+    --slow-trans    : var(--trans) var(--five-sec);
+
+    --slide-down  : slide-down var(--five-sec);
+    --ripple      : ripple var(--one-sec-lg) var(--inf-loop);
+    --move-dot    : move-dot var(--three-sec-lg) var(--inf-loop);
+}
+
+
+@keyframes slide-down {
+    0%   {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes move-dot {
+    0%  {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(70px);
+    }
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes ripple {
+   0%   {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3),
+     0 0 0 10px rgba(255, 255, 255, 0.3),
+     0 0 0 20px rgba(255, 255, 255, 0.3);
+   }
+   
+   100% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3),
+     0 0 0 20px rgba(255, 255, 255, 0.3),
+     0 0 0 30px rgba(255, 255, 255, 0);
+   } 
+}

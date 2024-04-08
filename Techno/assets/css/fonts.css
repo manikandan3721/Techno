@@ -1,0 +1,43 @@
+@font-face {
+    font-family:"Muli_sans_Regular" ;
+    src: url("../fonts/Regular/Muli-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:"Muli_sans_Medium" ;
+    src: url("../fonts/Medium/Muli-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family:"Muli_sans_semiBold" ;
+    src: url("../fonts/SemiBold/Muli-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family:"Muli_sans_Bold" ;
+    src: url("../fonts/Bold/Muli-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"Muli_sans_exBold" ;
+    src: url("../fonts/ExtraBold/Muli-ExtraBold.ttf");
+    font-weight: 800;
+}
+
+:root {
+    --font-regular: Muli_sans_Regular, "sans-serif";
+    --font-medium: Muli_sans_Medium , "sans-serif";
+    --font-sBold: Muli_sans_semiBold, "sans-serif";
+    --font-bold: Muli_sans_Bold , "sans-serif;";
+    --font-exBold: Muli_sans_exBold , "sans-serif;";
+}
+
+.font-regular { font-family: var(--font-regular); }
+.font-medium { font-family: var(--font-medium); }
+.font-sBold { font-family: var(--font-sBold); }
+.font-bold { font-family: var(--font-bold); }
+.font-exBold { font-family: var(--font-exBold); }

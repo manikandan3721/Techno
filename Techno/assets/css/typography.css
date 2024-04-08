@@ -1,0 +1,22 @@
+
+/* heading primary */
+.heading-primary {
+    color: var(--c-white);
+    line-height: 1;
+}
+
+/* heading secondary */
+.heading-secondary {
+    font-family: var(--font-exBold);
+    line-height: 1;
+}
+
+/* heading tertiary */
+:where(.heading-tertiary , .highlight-text) {
+    color: var(--c-primary);
+}
+
+
+
+
+

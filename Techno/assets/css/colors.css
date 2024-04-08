@@ -1,0 +1,18 @@
+:root {
+
+    /* solid colors */
+    --c-primary:#0c5adb;
+    --c-secondary:#00247e; 
+    --c-white:#ffffff;
+    --c-black:#232323;
+    --c-lavender:#cbbded; 
+    --c-gray :#616161;
+    --c-light-gray : #eee;
+    --c-navy:#111a3a;
+    --c-purple:#5813ce;
+
+    /* shadow gray */
+    --c-light-blue :rgba(12, 90, 219, 0.85) ;
+    --c-shadow-gray: rgba(0, 0, 0, 0.15);
+    --c-light-white:rgba(255, 255, 255, 0.23);
+}

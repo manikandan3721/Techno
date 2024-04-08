@@ -1,0 +1,98 @@
+.f10 { font-size: 10px; }
+.f11 { font-size: 11px; }
+.f12 { font-size: 12px; }
+.f13 { font-size: 13px; }
+.f14 { font-size: 14px; }
+.f15 { font-size: 15px; }
+.f16 { font-size: 16px; }
+.f17 { font-size: 17px; }
+.f18 { font-size: 18px; }
+.f19 { font-size: 19px; }
+.f20 { font-size: 20px; }
+.f25 { font-size: 25px; }
+.f28 { font-size: 28px; }
+.f30 { font-size: 30px; }
+.f40 { font-size: 40px; }
+
+/* margin bottom */
+.mB5 { margin-bottom: 5px; }
+.mB10 { margin-bottom: 10px; }
+.mB16 { margin-bottom: 16px; }
+.mB20 { margin-bottom: 20px; }
+.mB24 { margin-bottom: 24px; }
+.mB25 { margin-bottom: 25px; }
+.mB30 { margin-bottom: 30px; }
+.mB40 { margin-bottom: 40px; }
+.mB50 { margin-bottom: 50px; }
+.mB60 { margin-bottom: 60px; }
+
+/* margin top */
+.mT30 { margin-top: 30px; }
+.mT40 { margin-top: 40px; }
+
+/* margin-right */
+.mR5 { margin-right: 5px; }
+.mR10 { margin-right: 10px; }
+.mR15 { margin-right: 15px; }
+.mR24 { margin-right: 24px; }
+
+/* margin left */
+.mL30 { margin-left: 30px; }
+
+/* width percentage*/
+.w25pe { width: 25%; }
+.w50pe { width: 50%; }
+.w70pe { width: 70%; }
+.w100pe { width: 100%; }
+
+/* height */
+.h90px { height: 90px; }
+.h100pe { height: 100%; }
+
+/* padding */
+.p24 { padding: 24px; }
+
+/* padding top */
+.pT8 { padding-top: 8px; }
+.pT16 { padding-top: 16px; }
+.pT24 { padding-top: 24px; }
+.pT50 { padding-top: 90px; }
+
+/* padding bottom */
+.pB24 { padding-bottom: 24px; }
+.pB50 { padding-bottom: 50px; }
+
+/* padding-left */
+.pL15 { padding-left: 15px;}
+
+/* padding right */
+.pR15 { padding-right: 15px; }
+.pR16 { padding-right: 16px; }
+
+/* size */
+.s80 { width: 80px; height: 80px; }
+
+/* position */
+.pos_abs { position: absolute; }
+.pos_rel { position: relative; }
+.right0  { right: 0; }
+.left0   { left: 0; }
+.bottom0 { bottom: 0; }
+
+/* font-style */
+.fS-N { font-style: normal; }
+
+/* text-align */
+.tal-C { text-align: center; }
+
+/* line height */
+.lh18 { line-height: 1.8; }
+
+/* display-block */
+.d-inline {
+    display: inline-block;
+}
+
+/* display-none */
+
+.hidden { display: none; }
